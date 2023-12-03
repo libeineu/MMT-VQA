@@ -1,0 +1,22 @@
+Namespace(no_progress_bar=False, log_interval=100, log_format=None, tensorboard_logdir=None, seed=1, cpu=False, tpu=False, bf16=False, memory_efficient_bf16=False, fp16=False, memory_efficient_fp16=False, fp16_no_flatten_grads=False, fp16_init_scale=128, fp16_scale_window=None, fp16_scale_tolerance=0.0, min_loss_scale=0.0001, threshold_loss_scale=None, user_dir=None, empty_cache_freq=0, all_gather_list_size=16384, model_parallel_size=1, checkpoint_suffix='', checkpoint_shard_count=1, quantization_config_path=None, profile=False, criterion='cross_entropy', tokenizer=None, bpe=None, optimizer=None, lr_scheduler='fixed', scoring='bleu', task='translation', source_lang='en', target_lang='de', trainpref='data/multi30k-en-de/train', validpref='data/multi30k-en-de/valid', testpref='data/multi30k-en-de/test.2016,data/multi30k-en-de/test.2017,data/multi30k-en-de/test.coco', align_suffix=None, destdir='data-bin/multi30k.en-de', thresholdtgt=0, thresholdsrc=0, tgtdict=None, srcdict=None, nwordstgt=-1, nwordssrc=-1, alignfile=None, dataset_impl='mmap', joined_dictionary=True, only_source=False, padding_factor=8, workers=8)
+[en] Dictionary: 9712 types
+[en] data/multi30k-en-de/train.en: 29000 sents, 426793 tokens, 0.0% replaced by <unk>
+[en] Dictionary: 9712 types
+[en] data/multi30k-en-de/valid.en: 1014 sents, 15153 tokens, 0.0264% replaced by <unk>
+[en] Dictionary: 9712 types
+[en] data/multi30k-en-de/test.2016.en: 1000 sents, 14671 tokens, 0.00682% replaced by <unk>
+[en] Dictionary: 9712 types
+[en] data/multi30k-en-de/test.2017.en: 1000 sents, 13183 tokens, 0.0379% replaced by <unk>
+[en] Dictionary: 9712 types
+[en] data/multi30k-en-de/test.coco.en: 461 sents, 6034 tokens, 0.0% replaced by <unk>
+[de] Dictionary: 9712 types
+[de] data/multi30k-en-de/train.de: 29000 sents, 429507 tokens, 0.0% replaced by <unk>
+[de] Dictionary: 9712 types
+[de] data/multi30k-en-de/valid.de: 1014 sents, 15516 tokens, 0.0258% replaced by <unk>
+[de] Dictionary: 9712 types
+[de] data/multi30k-en-de/test.2016.de: 1000 sents, 14447 tokens, 0.0% replaced by <unk>
+[de] Dictionary: 9712 types
+[de] data/multi30k-en-de/test.2017.de: 1000 sents, 13426 tokens, 0.0223% replaced by <unk>
+[de] Dictionary: 9712 types
+[de] data/multi30k-en-de/test.coco.de: 461 sents, 6419 tokens, 0.0156% replaced by <unk>
+Wrote preprocessed data to data-bin/multi30k.en-de

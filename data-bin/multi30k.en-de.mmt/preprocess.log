@@ -1,0 +1,26 @@
+Namespace(aim_repo=None, aim_run_hash=None, align_suffix=None, alignfile=None, all_gather_list_size=16384, amp=False, amp_batch_retries=2, amp_init_scale=128, amp_scale_window=None, ans='data/multi30k-en2de/train.ans', azureml_logging=False, bf16=False, bpe=None, cpu=False, criterion='cross_entropy', dataset_impl='mmap', destdir='data-bin/multi30k.en-de', dict_only=False, empty_cache_freq=0, fp16=False, fp16_init_scale=128, fp16_no_flatten_grads=False, fp16_scale_tolerance=0.0, fp16_scale_window=None, joined_dictionary=True, log_file=None, log_format=None, log_interval=100, lr_scheduler='fixed', memory_efficient_bf16=False, memory_efficient_fp16=False, min_loss_scale=0.0001, model_parallel_size=1, no_progress_bar=False, nwordssrc=-1, nwordstgt=-1, on_cpu_convert_precision=False, only_source=False, optimizer=None, padding_factor=8, plasma_path='/tmp/plasma', profile=False, quantization_config_path=None, query='data/multi30k-en2de/train.query', reset_logging=False, scoring='bleu', seed=1, source_lang='en', srcdict=None, suppress_crashes=False, target_lang='de', task='mmt_vqa', tensorboard_logdir=None, testpref='data/multi30k-en2de/test.2016,data/multi30k-en2de/test.2017,data/multi30k-en2de/test.coco', tgtdict=None, threshold_loss_scale=None, thresholdsrc=0, thresholdtgt=0, tokenizer=None, tpu=False, trainpref='data/multi30k-en2de/train', use_plasma_view=False, user_dir=None, validpref='data/multi30k-en2de/valid', wandb_project=None, workers=8)
+[en] Dictionary: 9712 types
+[en] data/multi30k-en2de/train.en: 29000 sents, 426793 tokens, 0.0% replaced (by <unk>)
+[en] Dictionary: 9712 types
+[en] data/multi30k-en2de/valid.en: 1014 sents, 15153 tokens, 0.0264% replaced (by <unk>)
+[en] Dictionary: 9712 types
+[en] data/multi30k-en2de/test.2016.en: 1000 sents, 14671 tokens, 0.00682% replaced (by <unk>)
+[en] Dictionary: 9712 types
+[en] data/multi30k-en2de/test.2017.en: 1000 sents, 13183 tokens, 0.0379% replaced (by <unk>)
+[en] Dictionary: 9712 types
+[en] data/multi30k-en2de/test.coco.en: 461 sents, 6034 tokens, 0.0% replaced (by <unk>)
+[query] Dictionary: 9712 types
+[query] data/multi30k-en2de/train.query: 29000 sents, 248445 tokens, 0.000403% replaced (by <unk>)
+[ans] Dictionary: 9712 types
+[ans] data/multi30k-en2de/train.ans: 29000 sents, 99773 tokens, 0.0% replaced (by <unk>)
+[de] Dictionary: 9712 types
+[de] data/multi30k-en2de/train.de: 29000 sents, 429507 tokens, 0.0% replaced (by <unk>)
+[de] Dictionary: 9712 types
+[de] data/multi30k-en2de/valid.de: 1014 sents, 15516 tokens, 0.0258% replaced (by <unk>)
+[de] Dictionary: 9712 types
+[de] data/multi30k-en2de/test.2016.de: 1000 sents, 14447 tokens, 0.0% replaced (by <unk>)
+[de] Dictionary: 9712 types
+[de] data/multi30k-en2de/test.2017.de: 1000 sents, 13426 tokens, 0.0223% replaced (by <unk>)
+[de] Dictionary: 9712 types
+[de] data/multi30k-en2de/test.coco.de: 461 sents, 6419 tokens, 0.0156% replaced (by <unk>)
+Wrote preprocessed data to data-bin/multi30k.en-de
